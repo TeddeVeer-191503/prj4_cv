@@ -1,8 +1,5 @@
 /* Use this file to use your own styles*/
 
-/* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 /* Styles for the body */
 
 body {
@@ -14,7 +11,7 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #f3e7d8;
 }
 
 .resume-main {
@@ -22,7 +19,7 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #c7b65d;
 }
 
 /* Styles for lists in the document */
@@ -36,7 +33,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #f3a732;
 }
 
 .biography-details li, .skill-list li {
@@ -50,12 +47,92 @@ body {
 	flex-basis: 1.4em;
 }
 
+/* my own classes and adjustments go under here */
 
-/* practise moment with guidebook on header*/
+/* fonts */
 
-.testwithguidebook {
-	color: crimson;
+.dm-serif display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* textual adjustments */
+
+.nameheader {
+	color: #ed583f;
+	text-align: left;
+	font-style: bold;
+	font-family: "DM Serif Display", serif;
+}
+
+.bio-details {
+	color:#ed583f;
 	text-align: left;
 	font-style: italic;
-	text-decoration: underline #f8b3cc;
+	font-family: "DM Serif Display", serif;
+}
+
+.professionalexperience {
+	color: #f8b3cc;
+	margin-left: -1em;
+	width: 1em;
+	font-family: "DM Serif Display", serif;
+}
+
+.education {
+	color: #f8b3cc;
+	margin-left: -1em;
+	width: 1em;
+	font-family: "DM Serif Display", serif;
+}
+
+/* Styles for contact */
+.contact {
+	color: #f3e7d8;
+	text-align: left;
+	font-family: "DM Serif Display", serif;
+}
+
+.contact-icon {
+	height: 1em;
+	flex-basis: 1em;
+}
+
+.lanuages {
+	color: #f3e7d8;
+	text-align: left;
+	font-family: "DM Serif Display", serif;
+}
+
+.skills {
+	color: #f3e7d8;
+	text-align: left;
+	font-family: "DM Serif Display", serif;
+}
+
+.hobbies {
+	color: #f3e7d8;
+	text-align: left;
+	font-family: "DM Serif Display", serif;
+}
+
+/* extras */
+a:link {
+color: #f3e7d8;
+}
+
+a:visited {
+color: #3f8b3cc;
+}
+
+a:hover {
+color: #f3a732;
+background-color: pink;
 }
