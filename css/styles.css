@@ -49,3 +49,13 @@ body {
 	height: 1em;
 	flex-basis: 1.4em;
 }
+
+
+/* practise moment with guidebook on header*/
+
+.testwithguidebook {
+	color: crimson;
+	text-align: left;
+	font-style: italic;
+	text-decoration: underline #f8b3cc;
+}
