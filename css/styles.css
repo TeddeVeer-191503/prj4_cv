@@ -1,56 +1,8 @@
 /* Use this file to use your own styles*/
 
-/* Styles for the body */
-
-body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
-	background-color: #f8f8fc;
-}
-
-/* Styles for custom classes in the document. (There are more, try to find them out!) */
-
-.resume-header {
-    background-color: #f3e7d8;
-}
-
-.resume-main {
-	background-color: #fffefc;
-}
-
-.resume-aside {
-	background-color: #c7b65d;
-}
-
-/* Styles for lists in the document */
-
-.biography-details li::before, .skill-list li::before {
-	content: ">";
-	font-weight: 800;
-	display: inline-block;
-	width: 1em;
-	margin-left: -1em;
-}
-
-.biography-details li::before {
-	color: #f3a732;
-}
-
-.biography-details li, .skill-list li {
-	padding-left: 1em;
-}
-
-/* Styles for contact icons */
-
-.contact-icon {
-	height: 1em;
-	flex-basis: 1.4em;
-}
-
-/* my own classes and adjustments go under here */
+/* TED'S ADJUSTMENTS */
 
 /* fonts */
-
 .dm-serif display-regular {
   font-family: "DM Serif Display", serif;
   font-weight: 400;
@@ -64,7 +16,6 @@ body {
 }
 
 /* textual adjustments */
-
 .nameheader {
 	color: #ed583f;
 	text-align: left;
@@ -123,7 +74,6 @@ body {
 	font-family: "DM Serif Display", serif;
 }
 
-/* extras */
 a:link {
 color: #f3e7d8;
 }
@@ -136,3 +86,56 @@ a:hover {
 color: #f3a732;
 background-color: pink;
 }
+
+
+
+
+/* school edit */
+/* Styles for the body */
+
+body {
+	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #202030;
+	background-color: #f8f8fc;
+}
+
+/* Styles for custom classes in the document. (There are more, try to find them out!) */
+
+.resume-header {
+    background-color: #f3e7d8;
+}
+
+.resume-main {
+	background-color: #fffefc;
+}
+
+.resume-aside {
+	background-color: #c7b65d;
+}
+
+/* Styles for lists in the document */
+
+.biography-details li::before, .skill-list li::before {
+	content: ">";
+	font-weight: 800;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.biography-details li::before {
+	color: #f3a732;
+}
+
+.biography-details li, .skill-list li {
+	padding-left: 1em;
+}
+
+/* Styles for contact icons */
+
+.contact-icon {
+	height: 1em;
+	flex-basis: 1.4em;
+}
+
+
