@@ -19,7 +19,6 @@
 .nameheader {
 	color: #ed583f;
 	text-align: left;
-	font-style: bold;
 	font-family: "DM Serif Display", serif;
 }
 
@@ -79,7 +78,7 @@ color: #f3e7d8;
 }
 
 a:visited {
-color: #3f8b3cc;
+color: #3f8b3c;
 }
 
 a:hover {
